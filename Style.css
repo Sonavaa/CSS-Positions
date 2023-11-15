@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #eaf3f5;
+}
+@font-face {
+    src: url(Fonts/OpenSans-VariableFont_wdth,wght.ttf);
+    font-family: "Open Sans";
+}
+#title{
+    width: 100%;
+    text-transform: uppercase;
+    margin-top: 80px;
+    text-align: center;
+    font-family: "Open Sans";
+    font-weight: bold;
+    font-size: 10px;
+    color: gray;
+}
+h1{
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 400;
+    margin-top: 3px;
+}
+#description{
+    text-align: center;
+    font-family: "Open Sans";
+    font-weight: 500;
+    white-space: pre;
+    font-size: 11px;
+    margin-top: 10px;
+    color: grey;
+}
+#modul{
+    height: 450px;
+    width: 700px;
+    background-color: white;
+    transform: translate(59%,6%);
+    padding: 40px 90px;
+
+}
+::placeholder{
+    font-weight: 500;
+    font-size: 13px;
+}
+input{
+    height: 40px;
+    width: 500px;
+    display: block;
+    margin-bottom: 15px;
+    font-family: "Open Sans";
+    border:0.5px solid #7a9ca5;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+    padding-left: 35px;
+}
+
+#note{
+    min-height: 70px;
+    max-height: 70px;
+    min-width: 500px;
+    max-width: 500px;
+    white-space: wrap;
+    font-family: "Open Sans";
+    border-color: #7a9ca5;
+    position: relative;
+    padding-left: 35px;
+    padding-top: 10px;
+}
+#btn{
+    height: 40px;
+    width: 500px;
+    margin-top: 10px;
+    font-family: "Open Sans";
+    font-weight: bold;
+    font-size: 11px;
+    text-transform: uppercase;
+    background-color: #7a9ca5;
+    border-color: #7a9ca5;
+    color: white;
+    cursor: pointer;
+}
+i{
+    position: absolute;
+    padding: 13px 0 0 15px;
+    z-index: 99;
+}
+    
